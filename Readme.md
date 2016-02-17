@@ -1,10 +1,5 @@
----
-tags: cssi, javascript
-level: 1
-languages: javascript
----
 ## Functions
-A function holds a set of actions that will run everytime the function is called. This helps control the flow of our program and allows us to repeat a set of actions multiple times.
+A function holds a set of actions that will run every time the function is called. This helps control the flow of our program and allows us to repeat a set of actions multiple times.
 
 Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again.
 
@@ -42,7 +37,7 @@ And then we can use the function by calling it like this:
 
 
 ##Function Declaration
-A function is a set of instructions that we write out once and reuse over and over. We call creating a new set of instructions **declaring a function**.
+A function is a set of instructions that we write out once and can reuse over and over. We call creating a new set of instructions **declaring a function**.
 
 The syntax for writing JS functions is very specific. It looks like this:
 
@@ -62,11 +57,10 @@ function goGetLunch() {
 ```
 
 ## Invoking a Function
-Declaring a function is only the first step. In order for JavaScript to actually use the function, it has to be invoked. There are many ways to invoke a function in JavaScript, but in the scope of this prework, we will mainly stick with function calls. To call a function, you just need to write the function name followed by parenthesis.  When a function is called, all of the code between the curly brackets of that function is executed.  
+Declaring a function is only the first step. In order for JavaScript to actually use the function, it has to be invoked. There are many ways to invoke a function in JavaScript, but in the scope of this prework, we will mainly stick with function calls. To call a function, you just need to write the function name followed by parenthesis.  When a function is called, all of the code between the curly brackets of that function is executed.
 ```
 goGetLunch();
 ```
-
 
 ##Parameters & Arguments
 Parameters allow you to pass values into functions - they help make functions reusable. Instead of using the same values every time you use the function, you can use the same set of instructions on different data.
@@ -92,7 +86,7 @@ To reiterate
 
 
 ## Return Values
-In order to use a value outside of the function, you need to **return** that value.
+In order to use a value outside of the function - that is, if you want to use the output of your function - you need to **return** that value.
 ```
 function addTwice(x,y){
     return x+x+y+y;
@@ -108,7 +102,7 @@ By using a return statement, we’re asking the function to give us back the ans
 
 ##N.I.C.O
 We can break down the creation of functions into four things that every function has:
-+ **Name** - Decide an appropriate name for the function. In JavaScript, these names are camelCase
-+ **Input (Parameters)**  - Figure out which inputs, if any, are needed to accomplish what the name describes
-+ **Code** - Write instructions inside of the curly brackets to be run when it is called
-+ **Output** - Optionally return a value if needed
++ **Name** - Decide an appropriate name for the function. In JavaScript, these names are camelCased.
++ **Input (Parameters)**  - Figure out which inputs, if any, are needed to accomplish what the name describes.
++ **Code** - Write instructions inside of the curly brackets to be run when it is called.
++ **Output** - Optionally return a value if needed.
