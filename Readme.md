@@ -1,15 +1,15 @@
+# JavaScript Functions
+
+##Objectives
+* Declare a Function in JavaScript
+* Invoke (or use) a JavaScript Function
+* Understand the difference between Parameters and Arguments in Functions
+* Understand the purpose and use of return values
+
 ## Overview
 A function holds a set of actions that will run every time the function is called. This helps control the flow of our program and allows us to repeat a set of actions multiple times.
 
 Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again. Understanding and using functions is one of the most important skills for a developer.
-
-##Objectives
-At the end of this lesson you will understand
-* Function Declaration
-* Function Invocation
-* Parameters vs Arguments in Functions
-* Return Values
-
 
 Imagine you are a cashier. Every time a customer checks out, you need to
 
